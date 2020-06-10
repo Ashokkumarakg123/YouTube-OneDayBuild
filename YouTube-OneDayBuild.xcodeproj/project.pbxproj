@@ -13,6 +13,9 @@
 		8428C6F02490B19300503923 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8428C6EE2490B19300503923 /* Main.storyboard */; };
 		8428C6F22490B19500503923 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8428C6F12490B19500503923 /* Assets.xcassets */; };
 		8428C6F52490B19500503923 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8428C6F32490B19500503923 /* LaunchScreen.storyboard */; };
+		8428C6FD2491194300503923 /* constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8428C6FC2491194300503923 /* constants.swift */; };
+		8428C6FF24911DD200503923 /* videos.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8428C6FE24911DD200503923 /* videos.swift */; };
+		8428C70124912B1300503923 /* Models.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8428C70024912B1300503923 /* Models.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +27,9 @@
 		8428C6F12490B19500503923 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		8428C6F42490B19500503923 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		8428C6F62490B19500503923 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8428C6FC2491194300503923 /* constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = constants.swift; sourceTree = "<group>"; };
+		8428C6FE24911DD200503923 /* videos.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = videos.swift; sourceTree = "<group>"; };
+		8428C70024912B1300503923 /* Models.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Models.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +69,9 @@
 				8428C6F12490B19500503923 /* Assets.xcassets */,
 				8428C6F32490B19500503923 /* LaunchScreen.storyboard */,
 				8428C6F62490B19500503923 /* Info.plist */,
+				8428C6FC2491194300503923 /* constants.swift */,
+				8428C6FE24911DD200503923 /* videos.swift */,
+				8428C70024912B1300503923 /* Models.swift */,
 			);
 			path = "YouTube-OneDayBuild";
 			sourceTree = "<group>";
@@ -141,6 +150,9 @@
 				8428C6ED2490B19300503923 /* ViewController.swift in Sources */,
 				8428C6E92490B19300503923 /* AppDelegate.swift in Sources */,
 				8428C6EB2490B19300503923 /* SceneDelegate.swift in Sources */,
+				8428C70124912B1300503923 /* Models.swift in Sources */,
+				8428C6FF24911DD200503923 /* videos.swift in Sources */,
+				8428C6FD2491194300503923 /* constants.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
