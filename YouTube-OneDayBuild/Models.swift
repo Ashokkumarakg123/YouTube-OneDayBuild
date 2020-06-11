@@ -22,26 +22,40 @@ class Model {
         }
         
         
-    
-    // GET THE URL SESSION OBJECT
+        
+        // GET THE URL SESSION OBJECT
         
         let session = URLSession.shared
-    
-     
-    // GET THE DATA TASK FROM URL SESSION
+        
+        
+        // GET THE DATA TASK FROM URL SESSION
         
         let dataTask = session.dataTask(with: url!) { (data, response, error) in
             
             if error != nil || data == nil {
                 return
             }
-            // parsing the data
+            
+            do {
+                
+                let decoder = JSONDecoder()
+                decoder.dateDecodingStrategy = .iso8601
+                
+                let response = try decoder.decode(Response.self, from: data!)
+                // parsing the data
+                
+                dump(response)
+                
+            }
+            catch {
+                
+            }
         }
-    
-    // KICK THE CODE
+        
+        
+        // KICK THE CODE
         dataTask.resume()
-    
-}
-    
+        
+    }
     
 }
