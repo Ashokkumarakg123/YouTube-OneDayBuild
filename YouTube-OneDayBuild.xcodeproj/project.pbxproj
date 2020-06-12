@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		8407C25A2492403600ACC123 /* Response.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8407C2592492403600ACC123 /* Response.swift */; };
+		8407C25C249281E400ACC123 /* ConstantTemplate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8407C25B249281E400ACC123 /* ConstantTemplate.swift */; };
 		8428C6E92490B19300503923 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8428C6E82490B19300503923 /* AppDelegate.swift */; };
 		8428C6EB2490B19300503923 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8428C6EA2490B19300503923 /* SceneDelegate.swift */; };
 		8428C6ED2490B19300503923 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8428C6EC2490B19300503923 /* ViewController.swift */; };
@@ -21,6 +22,7 @@
 
 /* Begin PBXFileReference section */
 		8407C2592492403600ACC123 /* Response.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Response.swift; sourceTree = "<group>"; };
+		8407C25B249281E400ACC123 /* ConstantTemplate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConstantTemplate.swift; sourceTree = "<group>"; };
 		8428C6E52490B19300503923 /* YouTube-OneDayBuild.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "YouTube-OneDayBuild.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		8428C6E82490B19300503923 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		8428C6EA2490B19300503923 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -72,6 +74,7 @@
 				8428C6F32490B19500503923 /* LaunchScreen.storyboard */,
 				8428C6F62490B19500503923 /* Info.plist */,
 				8428C6FC2491194300503923 /* constants.swift */,
+				8407C25B249281E400ACC123 /* ConstantTemplate.swift */,
 				8428C6FE24911DD200503923 /* videos.swift */,
 				8428C70024912B1300503923 /* Models.swift */,
 				8407C2592492403600ACC123 /* Response.swift */,
@@ -157,6 +160,7 @@
 				8428C6FF24911DD200503923 /* videos.swift in Sources */,
 				8428C6FD2491194300503923 /* constants.swift in Sources */,
 				8407C25A2492403600ACC123 /* Response.swift in Sources */,
+				8407C25C249281E400ACC123 /* ConstantTemplate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

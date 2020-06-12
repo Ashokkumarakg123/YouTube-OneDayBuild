@@ -8,7 +8,13 @@
 
 import Foundation
 
+protocol modelDeligate {
+    func fatchedVideo(_ videos:[Video])
+}
+
 class Model {
+    
+    var deligate: modelDeligate?
     
     // CREATE THE URL
     
@@ -44,7 +50,13 @@ class Model {
                 let response = try decoder.decode(Response.self, from: data!)
                 // parsing the data
                 
-                dump(response)
+                if response.items != nil {
+                    DispatchQueue.main.async {
+                        // call the video fatched method
+                        self.deligate?.fatchedVideo(response.items!)
+                    }
+                }
+               // dump(response)
                 
             }
             catch {
